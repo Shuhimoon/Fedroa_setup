@@ -1,0 +1,24 @@
+name = "shuhi_theme"
+
+"ui.background" = { fg = "none", bg = "default" }
+"ui.cursor" = { fg = "black", bg = "white" }
+"ui.statusline" = { fg = "white", bg = "#3c3836" }
+"ui.statusline.normal" = { fg = "#ebdbb2", bg = "#458588", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "#ebdbb2", bg = "#689d6a", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "#ebdbb2", bg = "#b16286", modifiers = ["bold"] }
+
+# 修改語法高亮顏色
+"comment" = { fg = "#888888", modifiers = ["italic"] }     # 註解：灰色、斜體
+"keyword" = { fg = "#ff5f00", modifiers = ["bold"] }        # 關鍵字：亮橘、粗體
+"function" = { fg = "#00afff", modifiers = ["bold"] }       # 函式名稱：藍色、粗體
+"string" = { fg = "#87ff5f" }                               # 字串：亮綠
+"variable" = { fg = "#ffd75f" }                             # 變數：亮黃
+"type" = { fg = "#af5fff", modifiers = ["bold"] }           # 類型名稱：紫色、粗體
+"number" = { fg = "#ff87af" }                               # 數字：粉紅
+"constant" = { fg = "#d75f00" }                             # 常數：深橘
+
+# 其他可自訂項目（可省略）
+"ui.linenr" = { fg = "#509b72" }           # 行號顏色
+"ui.selection" = { bg = "#504945" }        # 選取背景
+"ui.popup" = { fg = "white", bg = "#3c3836" }
+"ui.help" = { fg = "white", bg = "#3c3836" }
